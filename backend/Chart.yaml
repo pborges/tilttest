@@ -1,0 +1,7 @@
+name: backend
+description: Deploy a backend service
+version: 0.1.0
+home: https://github.com/pborges/tilttest
+sources:
+  - https://github.com/pborges/tilttest/backend
+appVersion: 3.3
