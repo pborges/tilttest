@@ -14,7 +14,7 @@ export const DisplayCustomers = () =>{
 
     useEffect(() => {
         const loadData = async () => {
-            const res = await fetch("http://localhost:8001/customers.json")
+            const res = await fetch("http://localhost:8000/customers.json")
             setCustomers(await res.json())
         }
         loadData()

@@ -49,8 +49,8 @@ func main() {
 		}
 	})
 
-	log.Println("Serving on port 8001")
-	err = http.ListenAndServe(":8001", loggingMiddleware(corsHandler))
+	log.Println("Serving on port 8000")
+	err = http.ListenAndServe(":8000", loggingMiddleware(corsHandler))
 	if err != nil {
 		log.Fatalf("Server exited with: %v", err)
 	}
